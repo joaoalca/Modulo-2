@@ -10,7 +10,7 @@ window.onload = function() {
 
 $(document).ready(function(){  
 
-    $("img").hide("fast")
+    $("img").hide()
 
 });
 
