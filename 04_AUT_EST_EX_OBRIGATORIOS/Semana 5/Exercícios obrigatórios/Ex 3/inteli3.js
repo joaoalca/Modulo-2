@@ -35,7 +35,7 @@ function search(val,arr) { //busca linear
 	while (menor <= maior) {
 		console.log("try")//teste para saber quantas tentativas precisou para achar o resultado
 		let meio = menor + Math.floor((maior-menor)/2);
-		if (val == arr[meio]) {
+		if (val === arr[meio]) {
 			return meio;
 		}
 		if (val < arr[meio]) {
