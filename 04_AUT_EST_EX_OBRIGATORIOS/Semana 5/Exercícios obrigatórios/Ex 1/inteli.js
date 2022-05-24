@@ -1,5 +1,5 @@
 
-function CalcAndShow(number1,number2){
+function CalcAndShow(x,y){
     
     let val1 = parseInt(document.getElementById("number1").value);
     
