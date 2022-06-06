@@ -1,0 +1,1 @@
+Rodar "npm run dev" ou "node src/app.js" no diretorio API-NODE. Obrigado!
