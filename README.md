@@ -4,6 +4,8 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/joaoalca/Modulo-2/tree/main/03_AUT_EST_ENTREGA/Semana%206/API-NODE"> 26/05/2022 - Etapa 5 do curriculo </a>
 </br>
 <a href="https://github.com/joaoalca/Modulo-2/tree/main/03_AUT_EST_ENTREGA/Semana%207/API-NODE"> 03/06/2022 - Etapa 6 do curriculo </a>
+</br>
+<a href="https://github.com/joaoalca/Modulo-2/tree/main/03_AUT_EST_ENTREGA/Semana%208/API-NODE"> 09/06/2022 - Etapa 7 do curriculo </a>
 ## Obrigatórios
 <a href="https://github.com/joaoalca/Modulo-2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205/Exerc%C3%ADcios%20obrigat%C3%B3rios"> 19/05/2022 - semana 5 ex obrigatorio </a>
 </br>
