@@ -18,26 +18,26 @@ var projects = {
             url: api + "/projeto",
             type: 'GET',
             success: data => {
-$('#tabela').html("");
- var tx = '';
- tx += `<table>
- <tr>
-     <th>Cliente</th>
-     <th>Proposta</th>
-     <th>Carga horária</th>
- </tr>`;
-data.map(element => {
-    tx += `<tr>
-    <td>` + element.cliente + `</td>
-    <td>` + element.proposta + `</td>
-    <td>` + element.carga + `</td>
-</tr>`
-});
-$('#tabela').append(tx);
+                $('#tabela').html("");
+                var tx = '';
+                tx += `<table>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Proposta</th>
+                    <th>Carga horária</th>
+                </tr>`;
+                data.map(element => {
+                    tx += `<tr>
+                    <td>` + element.cliente + `</td>
+                    <td>` + element.proposta + `</td>
+                    <td>` + element.carga + `</td>
+                </tr>`
+                });
+                $('#tabela').append(tx);
+                        }
+                 })
             }
-        })
-    }
-}
+        }
 
 var project = {
 
