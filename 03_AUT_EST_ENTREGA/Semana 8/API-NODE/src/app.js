@@ -24,6 +24,9 @@ app.use(express.static("Curriculo"))
 createTable();
 
 app.use("/", router);
+// app.get('/', (req, res) =>{
+//     res.send("Hello World");
+// });
 
 // "/projeto" CRUD sem informar o modulo
 
