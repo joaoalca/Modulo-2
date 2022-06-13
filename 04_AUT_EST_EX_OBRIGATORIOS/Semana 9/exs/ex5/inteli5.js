@@ -1,4 +1,5 @@
 function cousin(){
+    document.getElementById("resultado").innerHTML = "";
     let val1 = Number(document.getElementById("valor1").value);
     let val2 = Number(document.getElementById("valor2").value);
     console.log('teste') //val1 e val2 são os valores dos inputs
