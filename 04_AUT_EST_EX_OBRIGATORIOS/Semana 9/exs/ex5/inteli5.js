@@ -8,7 +8,7 @@ function cousin(){
         for (let j = 2; j < i; j++) {
             if (i % j == 0) { //se o numero for divisivel por algum numero maior que 1 e menor que o proprio numero
                 alert += 1;	//alerta se o número é divisível por algum número entre 2 e o número que está sendo verificado
-                break;
+                break; //break no na condição if para que não continue verificando os números se o número não for primo
             }
         }
         if (alert == 0 && i > 1) {
