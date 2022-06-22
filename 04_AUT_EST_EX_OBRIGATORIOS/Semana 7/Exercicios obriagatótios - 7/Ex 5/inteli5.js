@@ -39,9 +39,9 @@ function media(){
 
         provaMinMax[1] = Math.max(provaMinMax[1],notaProva); // compara as notas para achar o maximo (prova)
 
-        trabalhoMinMax[0] = Math.min(provaMinMax[0],notaTrabalho); // compara as notas para achar o minimo (trabalho)
+        trabalhoMinMax[0] = Math.min(trabalhoMinMax[0],notaTrabalho); // compara as notas para achar o minimo (trabalho)
 
-        trabalhoMinMax[1] = Math.max(provaMinMax[1],notaTrabalho); // compara as notas para achar o maximo (trabalho)
+        trabalhoMinMax[1] = Math.max(trabalhoMinMax[1],notaTrabalho); // compara as notas para achar o maximo (trabalho)
     }
     // testes
     console.log(arrMediaAluno); // 1
